@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #F8F8F8;
+}
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuLeft, .menuRight{
+    padding: 15px;
+}
+.menuLeft > *{
+    margin-left: 5px;
+    font-weight: 500;
+}
+.menuLeft span{
+   font-size: 1.4em;
+   margin-right: 10px;
+}
+.menuCenter{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuCenter input{
+    width: 348px;
+    height: 40px;
+    top: 8px;
+    left: 526px;
+    border: 1px solid #CCCCCC;
+}
+.search span{
+    font-size: 2em;
+}
+.search{
+    width: 57px;
+    height: 40px;
+    top: 8px;
+    left: 873px;
+    border: 1px;
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+}
+.menuRight > *{
+    padding: 8px;
+}
+#user{
+    font-size: 2em;
+}
+main{
+    float: left;
+    margin-left: 4em;
+    max-width: 900px;
+}
+#video{
+    width: 952px;
+    height: 537px;
+}
+main h1{
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.mainFinal h3{
+    width: 391px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+}
+.mainFinal p{
+    width: 510px;
+    height: 64px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+    margin-top: 20px;
+}
+.videoActions{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 902px;
+    height: 42px;
+    gap: 42px;
+}
+.channel{
+    display: flex;
+    width: 160px;
+    height: 42px;
+    gap: 12px;
+}
+.channel img{
+    width: 42px;
+    height: 42px;
+}
+.channel h2{
+    width: 106px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.channel h2 > p{
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
+.videoActions button{
+    width: 159px;
+    height: 40px;
+    top: 1px;
+    left: 202px;
+    border-radius: 2px;
+    border: 0;
+    background-color: #CC0000;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.like{
+    display: flex;
+    width: 63px;
+    height: 24px;
+    align-items: center;
+}
+.like span{
+    width: 24px;
+    height: 24px;
+    top: 9px;
+    left: 403px;
+    margin-right: 7px;
+}
+.like p{
+    width: 40px;
+    height: 16px;
+    top: 13px;
+    left: 435px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+.dislike{
+    display: flex;
+    width: 100px;
+    height: 24px;
+    align-items: center;
+}
+.dislike span{
+    width: 24px;
+    height: 24px;
+    top: 9px;
+    left: 508px;
+    margin-right: 7px;
+
+}
+.dislike p{
+    width: 68px;
+    height: 16px;
+    top: 13px;
+    left: 540px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.share{
+    display: flex;
+    width: 115px;
+    height: 24px;
+    align-items: center;
+}
+.share span{
+    width: 24px;
+    height: 24px;
+    top: 9px;
+    left: 650px;
+    margin-right: 7px;
+}
+.share p{
+    width: 83px;
+    height: 16px;
+    top: 13px;
+    left: 682px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.download{
+    display: flex;
+    width: 95px;
+    height: 24px;
+    align-items: center;
+}
+.download span{
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    top: 9px;
+    left: 807px;
+    margin-right: 7px;
+}
+.download p{
+    width: 63px;
+    height: 16px;
+    top: 13px;
+    left: 839px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+aside{
+    float: right;
+    margin-right: 14em;
+}
+.sidebar{
+    width: 160px;
+    height: 90px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.sidebar img{
+    width: 160px;
+    height: 90px;
+    margin-right: 20px;
+}
+.sidebar h2{
+    width: 196px;
+    height: 14px;
+    top: 40px;
+    left: 176px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+    margin-top: 8px; 
+}
+.sidebar p{
+    width: 196px;
+    height: 28px;
+    top: 61px;
+    left: 176px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+    margin-top: 10px;
+}
+.sidebar h1{
+    width: 196px;
+    height: 32px;
+    left: 176px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.info{
+    width: 196px;
+    left: 176px;
+}
+
